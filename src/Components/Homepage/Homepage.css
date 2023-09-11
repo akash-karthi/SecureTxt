@@ -1,0 +1,366 @@
+#hero_txt {
+  font-size: 50px;
+  /* color: #0000ff; */
+  color: rgb(63, 62, 62);
+  width: max-content;
+}
+
+.custom-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 90vh;
+}
+
+.search {
+  display: flex;
+  width: 50%;
+  height: max-content;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  margin-bottom: -50px;
+}
+
+#slash {
+  font-size: 60px;
+}
+
+#dir {
+  width: 200px;
+  height: 35px;
+  font-size: 20px;
+  border-radius: 10px;
+  border: none;
+  /* border: #00f 2px solid; */
+  border: rgb(63, 62, 62) 2px solid;
+  margin-top: 15px;
+  padding-left: 10px;
+  color: rgb(63, 62, 62);
+}
+
+.explain {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 50%;
+  height: 200px;
+  /* border: #343c3d 2px solid; */
+  margin: auto;
+}
+
+.explain_block {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+  width: 30%;
+  font-size: 18px;
+  text-align: center;
+}
+
+.explain_block img {
+  width: 90%;
+  height: 100px;
+  object-fit: contain;
+}
+
+.how-it-works {
+  display: flex;
+  width: 80%;
+  height: 800px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  margin: auto;
+  font-size: 16px;
+  line-height: 25px;
+}
+
+.notes {
+  width: 45%;
+  border-radius: 12px;
+  height: 30%;
+  text-align: justify;
+  /* border: 1px solid #000000; */
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  padding: 20px;
+  color: rgb(82, 82, 82);
+}
+
+.how-it-works h1 {
+  margin-bottom: 50px;
+}
+
+.how-it-works div hr {
+  margin-top: 20px;
+  color: #000000;
+  width: calc(100% + 20px);
+  margin-left: -10px;
+}
+
+.how-it-works span {
+  font-size: 20px;
+  color: #262626;
+  font-weight: bold;
+  height: max-content;
+  width: max-content;
+  margin: auto;
+}
+
+#hiw2 {
+  align-self: flex-end;
+}
+
+#hiw1,
+#hiw3 {
+  align-self: flex-start;
+}
+
+.FAQ {
+  display: flex;
+  background-color: #ffffff;
+  color: rgb(63, 62, 62);
+  flex-direction: column;
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 12px;
+  box-shadow: 0px 20px 40px rgba(0, 0, 0, 0.1);
+  margin-top: 15px;
+}
+
+.questions {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  width: 80%;
+  height: 20%;
+  font-size: 18px;
+}
+
+#FAQ-header {
+  margin: auto;
+  margin-top: 50px;
+  width: max-content;
+}
+
+/* Bootstrap Footer */
+
+footer {
+  background: #ffffff;
+  color: rgb(63, 62, 62);
+  margin-top: 100px;
+}
+
+footer a {
+  color: rgb(63, 62, 62);
+  font-size: 14px;
+  transition-duration: 0.2s;
+  text-decoration: none;
+}
+
+footer a:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.copy {
+  font-size: 12px;
+  padding: 10px;
+  border-top: 1px solid #ffffff;
+}
+
+.footer-middle {
+  padding-top: 2em;
+  color: white;
+}
+
+ul.social-network {
+  list-style: none;
+  display: inline;
+  margin-left: 0 !important;
+  padding: 0;
+}
+
+ul.social-network li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.social-network a.icoFacebook:hover {
+  background-color: #3b5998;
+}
+
+.social-network a.icoLinkedin:hover {
+  background-color: #007bb7;
+}
+
+.social-network a.icoFacebook:hover i {
+  color: #fff;
+}
+
+.social-network a.icoLinkedin:hover i {
+  color: #fff;
+}
+
+.social-network a.socialIcon:hover {
+  color: #44bcdd;
+}
+
+.socialHoverClass {
+  color: #44bcdd;
+}
+
+.social-circle li a {
+  display: inline-block;
+  position: relative;
+  margin: 0 auto 0 auto;
+  -moz-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  font-size: 15px;
+}
+
+.social-circle li i {
+  margin: 0;
+  line-height: 30px;
+  text-align: center;
+}
+
+.social-circle li a:hover i {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.triggeredHover {
+  -moz-transform: rotate(360deg);
+  -webkit-transform: rotate(360deg);
+  -ms--transform: rotate(360deg);
+  transform: rotate(360deg);
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  -ms-transition: all 0.2s;
+  transition: all 0.2s;
+}
+
+.social-circle i {
+  color: #595959;
+  -webkit-transition: all 0.8s;
+  -moz-transition: all 0.8s;
+  -o-transition: all 0.8s;
+  -ms-transition: all 0.8s;
+  transition: all 0.8s;
+}
+
+.social-network a {
+  background-color: #f9f9f9;
+}
+
+.social-network a:hover {
+  background: #ff304d;
+}
+
+h4 {
+  color: #000000;
+}
+
+@media screen and (max-width: 1050px) {
+  #hero_txt {
+    font-size: 30px;
+  }
+  #slash {
+    font-size: 30px;
+  }
+  #dir {
+    height: 30px;
+    margin-top: 2px;
+  }
+  .explain {
+    width: 80%;
+  }
+  .explain_block {
+    font-size: 15px;
+  }
+  .how-it-works {
+    height: 800px;
+    width: 100%;
+    align-items: center;
+  }
+  .notes {
+    width: 80%;
+    height: 25%;
+  }
+  #hiw2,
+  #hiw1,
+  #hiw3 {
+    align-self: unset;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .search {
+    width: 100%;
+    height: 200px;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  #hero_txt,
+  #slash {
+    font-size: 25px;
+  }
+  .search form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  #dir {
+    width: 80%;
+  }
+  .custom-container {
+    height: max-content;
+  }
+  .explain {
+    flex-direction: column;
+    height: 700px;
+    justify-content: space-evenly;
+    margin-top: 50px;
+  }
+  .explain_block {
+    width: 80%;
+  }
+  .how-it-works {
+    width: 100%;
+    height: 1000px;
+  }
+  .notes {
+    width: 90vw;
+    height: 28%;
+    font-size: 14px;
+  }
+  .FAQ {
+    width: 95%;
+  }
+  .questions {
+    width: 95%;
+    font-size: 15px;
+  }
+}
